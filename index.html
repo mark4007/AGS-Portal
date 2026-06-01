@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Armou Golf Society</title>
+    <title>Web App</title>
     
-    <!-- This line forces Safari to show your custom icon -->
-    <link rel="apple-touch-icon" href="https://drive.google.com/file/d/1QjQPwFpX3iyqtl0levH2P7ATcWtVmjEP/view?usp=drive_link">
+    <!-- References the image you just uploaded inside GitHub -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     
-    <!-- This line automatically sends the user to your Google Site -->
-    <meta http-equiv="refresh" content="0; url=https://sites.google.com/view/armou-golf-society/home">
+    <!-- Delays the forward by 1.5 seconds so Safari can grab the icon -->
+    <script>
+        setTimeout(function(){
+            window.location.href = "https://sites.google.com/view/armou-golf-society/home";
+        }, 1500);
+    </script>
 </head>
 <body>
-    <p>Loading website... If you are not redirected, <a href="https://sites.google.com/view/armou-golf-society/home">click here</a>.</p>
+    <div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+        <p>Connecting to website...</p>
+    </div>
 </body>
 </html>
+
